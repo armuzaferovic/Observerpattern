@@ -13,7 +13,7 @@ public void register(IObserver ob){
 }
 public void ntify(){
 	for(IObserver x: oblist){
-		x.update();
+		x.update(temperatur);
 	}
 }
 public int getTemp(){
